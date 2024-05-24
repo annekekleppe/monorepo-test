@@ -1,0 +1,12 @@
+{
+  "name": "monoReproTry",
+  "workspaces": [
+    "packages/ts-lib",
+    "packages/components",
+    "packages/app"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w packages --if-present",
+    "build": "npm run build -w packages --if-present"
+  }
+}

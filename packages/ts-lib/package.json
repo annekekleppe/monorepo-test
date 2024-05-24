@@ -1,0 +1,13 @@
+{
+  "name": "test-ts-lib",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc",
+    "version": "tsc --version"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
